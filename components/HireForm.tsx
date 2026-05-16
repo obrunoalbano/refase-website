@@ -39,7 +39,7 @@ const fields = [
   // },
 ] as const;
 
-const LEADS_PROXY_PATH = "/api/leads/ingest";
+const LEADS_PROXY_PATH = "https://banda-app.vercel.app/api/leads/ingest";
 
 export function HireForm() {
   const [sent, setSent] = useState(false);
