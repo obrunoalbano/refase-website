@@ -88,6 +88,7 @@ export function HireForm() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "Authorization": `Bearer ${process.env.NEXT_PUBLIC_LEADS_PROXY_TOKEN}`,
         },
         body: JSON.stringify({
           name: nome,
