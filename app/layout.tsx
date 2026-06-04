@@ -16,15 +16,17 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "INÍCIO | Refase",
+  title: "Refase | Site Oficial",
   description:
-    "Refase — site oficial.",
+    "Rock com peso, melodia e letras intensas, trazendo toda a energia e identidade marcante do hardcore melódico.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/refase-icon.png",
+    shortcut: "/refase-icon.png",
+    apple: "/refase-icon.png",
   },
   openGraph: {
     title: "Refase",
-    description: "Rock nacional — site oficial.",
+    description: "Rock com peso, melodia e letras intensas, trazendo toda a energia e identidade marcante do hardcore melódico.",
   },
 };
 

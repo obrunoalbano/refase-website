@@ -30,8 +30,7 @@ export function Hero() {
           <Image src="/refase-logo.png" alt="Refase" width={500} height={500} />
         </h1>
         <p className="mt-6 max-w-lg text-sm leading-relaxed text-white sm:text-base">
-          Rock com peso e melodia, do alternativo ao emo e grunge, letras intensas e a
-          energia do rock nacional dos anos 2000.
+        Rock com peso, melodia e letras intensas, trazendo toda a energia e identidade marcante do hardcore melódico.
         </p>
         <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
           <Link
